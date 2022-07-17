@@ -118,13 +118,14 @@ nav .mainMenu .closeMenu , i {
     justify-content: center;
     
     
+    
 }
 
 .project{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 .project a{
@@ -180,47 +181,50 @@ nav .mainMenu .closeMenu , i {
     display: inline-block;
     flex-wrap: wrap;
     
-    padding: 50px 50px;
+    padding: 30px 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
+
+
 #icon {
-    width: 220px;
+    width: 190px;
     box-shadow: 0px 4px 0px rgba(238, 59, 5, 0.808);
     border-radius: 50px;
     padding: 30px 30px;
+    margin-left: 155px;
     
 }
 
 #icon2 {
-    width: 220px;
+    width: 190px;
     box-shadow: 0px 4px 0px rgba(5, 172, 238, 0.808);
     border-radius: 50px;
     padding: 30px 30px;
 }
 #icon3 {
-    width: 220px;
+    width: 190px;
     box-shadow: 0px 4px 0px rgba(209, 212, 0, 0.808);
     border-radius: 50px;
     padding: 30px 30px;
 }
 #icon4 {
-    width: 220px;
+    width: 190px;
     box-shadow: 0px 4px 0px rgba(78, 78, 78, 0.808);
     border-radius: 50px;
     padding: 30px 30px;
     
 }
 #icon5 {
-    width: 220px;
+    width: 190px;
     box-shadow: 0px 4px 0px rgba(5, 53, 141, 0.808);
     border-radius: 50px;
     padding: 30px 30px;
 }
 
 #icon6 {
-    width: 220px;
+    width: 190px;
     box-shadow: 0px 4px 0px rgba(96, 197, 56, 0.808);
     border-radius: 50px;
     padding: 30px 30px;
@@ -404,6 +408,27 @@ form input{
     text-align: center;
     padding: 80px 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+.html{
+    color: orange;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 5px;
+}
+
+.css{
+    color:#21A6CE;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 5px;
+}
+
+.js{
+    color:#e2d515;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 5px;
 }
 
 .footer{
