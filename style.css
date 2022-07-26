@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -57,29 +58,32 @@ nav .mainMenu .closeMenu , i {
 
 
 
+
 /* Main */
 .main {
     width: 100%;
     text-align: center;
     margin-bottom: 200px;
+   
+    
     
 }
 
 .title{
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 40px;
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
-    text-align: center;
-    
+    text-align: center;   
 }
+
 
 .main p{
     padding-left: 40px;
     padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;  
+    font-size: 18px;
 }
 
 .main a{
@@ -97,6 +101,17 @@ nav .mainMenu .closeMenu , i {
     background-color: #287bba;
 }
 
+.phones{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+   
+}
+
 /* Projects Section */
 
 
@@ -111,16 +126,14 @@ nav .mainMenu .closeMenu , i {
 
 .projects h1{
     margin-bottom: 40px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .project-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;   
 }
 
 .project{
@@ -139,6 +152,7 @@ nav .mainMenu .closeMenu , i {
     font-family: 'Roboto', sans-serif;
     display: inline-block;
     color: white;
+    margin-top: 10px;
     
 }
 
@@ -154,13 +168,27 @@ nav .mainMenu .closeMenu , i {
 
 .project p{
     color:#287bba;
-    font-weight: bold;
+    
 }
 
 .project h4{
     color: #21A6CE;
     margin-bottom: 35px;
+    text-align: center;
+    margin-top: 10px;
+    
+    
 }
+
+.project span{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    outline: auto;
+    margin: 0 2px;
+    
+    
+}
+
 
 .project-container .project {
     border: 3px solid #21A6CE;
@@ -255,6 +283,10 @@ nav .mainMenu .closeMenu , i {
 
 /*  Experience and Developer Process Icons Section */
 
+#experience{
+    font-family: 'Fjalla One', sans-serif;
+}
+
 .experience p{
     font-size: 30px;
     text-align: center;
@@ -308,7 +340,7 @@ nav .mainMenu .closeMenu , i {
 .about h1{
     font-size: 30px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -338,7 +370,7 @@ nav .mainMenu .closeMenu , i {
 }
 
 .contact .name{
-    
+    font-family: 'Fjalla One', sans-serif;
     padding: 20px 20px;
 }
 
@@ -430,6 +462,13 @@ form input{
 
 .js{
     color:#e2d515;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 5px;
+}
+
+.pixlr{
+    color: black;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     padding: 5px 5px;
